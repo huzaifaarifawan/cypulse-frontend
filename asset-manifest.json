@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/cypulse-frontend/static/css/main.c57697eb.css",
-    "main.js": "/cypulse-frontend/static/js/main.8baa7a0c.js",
+    "main.js": "/cypulse-frontend/static/js/main.fba21316.js",
     "static/js/488.70f1e6dc.chunk.js": "/cypulse-frontend/static/js/488.70f1e6dc.chunk.js",
     "static/media/background.mp4": "/cypulse-frontend/static/media/background.d14e4ea5a52901867fd0.mp4",
     "static/media/image2.jpg": "/cypulse-frontend/static/media/image2.4c511e378007677fe8cd.jpg",
     "static/media/image1.jpg": "/cypulse-frontend/static/media/image1.f36fcb39923bf397e17e.jpg",
     "index.html": "/cypulse-frontend/index.html",
     "main.c57697eb.css.map": "/cypulse-frontend/static/css/main.c57697eb.css.map",
-    "main.8baa7a0c.js.map": "/cypulse-frontend/static/js/main.8baa7a0c.js.map",
+    "main.fba21316.js.map": "/cypulse-frontend/static/js/main.fba21316.js.map",
     "488.70f1e6dc.chunk.js.map": "/cypulse-frontend/static/js/488.70f1e6dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c57697eb.css",
-    "static/js/main.8baa7a0c.js"
+    "static/js/main.fba21316.js"
   ]
 }
