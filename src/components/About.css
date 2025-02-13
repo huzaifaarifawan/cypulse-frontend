@@ -19,8 +19,9 @@
 
 .about-highlights {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; /* Or space-between, space-evenly, etc. */
   gap: 20px;
+  flex-wrap: wrap; /* Key for responsiveness: Allows items to wrap */
 }
 
 .highlight {
@@ -28,10 +29,21 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 30%;
+  /* width: 30%;  REMOVE THIS */
+  flex: 1; /* Key for responsiveness: Allows items to grow/shrink equally */
+  min-width: 250px; /* Optional: Sets a minimum width */
 }
 
 .highlight h3 {
   color: #2575fc;
   margin-bottom: 10px;
+}
+
+/* Media Query for smaller screens (optional but recommended) */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+  .highlight {
+    flex: 1 1 100%; /* Each block takes full width on small screens */
+    min-width: 0; /* Override min-width if necessary */
+    margin-bottom: 20px; /* Add spacing between stacked blocks */
+  }
 }
